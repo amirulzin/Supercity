@@ -3,12 +3,15 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.5
-
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.firebase:firebase-client-jvm:2.3.1'
+    compile 'org.apache.commons:commons-csv:1.1'
+    compile 'commons-io:commons-io:2.4'
 }
