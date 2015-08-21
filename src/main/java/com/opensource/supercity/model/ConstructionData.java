@@ -2,7 +2,7 @@ package com.opensource.supercity.model;
 
 import org.apache.commons.csv.CSVRecord;
 
-public class ConstructionData implements CSVRecordedT<ConstructionData> {
+public class ConstructionData implements CSVObject<ConstructionData> {
     String id, developer, projectName, projectStatus, landSize, latitude, longitude;
 
     public ConstructionData(String id, String developer, String projectName, String projectStatus, String landSize, String latitude, String longitude) {

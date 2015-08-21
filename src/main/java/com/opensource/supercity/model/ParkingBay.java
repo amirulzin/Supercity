@@ -2,7 +2,7 @@ package com.opensource.supercity.model;
 
 import org.apache.commons.csv.CSVRecord;
 
-public class ParkingBay implements CSVRecordedT<ParkingBay> {
+public class ParkingBay implements CSVObject<ParkingBay> {
     String id;
     String parkingType;
     String parkingArea;

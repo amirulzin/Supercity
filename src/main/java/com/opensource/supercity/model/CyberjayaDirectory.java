@@ -3,7 +3,7 @@ package com.opensource.supercity.model;
 import org.apache.commons.csv.CSVRecord;
 
 
-public class CyberjayaDirectory implements CSVRecordedT<CyberjayaDirectory> {
+public class CyberjayaDirectory implements CSVObject<CyberjayaDirectory> {
     private String id;
     private String category;
     private String premise;
